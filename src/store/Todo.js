@@ -26,7 +26,7 @@ class TodoList {
   }
 }
 //生成store
-// const todolist = new TodoList()
-// todolist.addTodo('学习')
-// todolist.addTodo('读书')
-// export default todolist;
+const todolist = new TodoList()
+todolist.addTodo('学习')
+todolist.addTodo('读书')
+export default todolist;

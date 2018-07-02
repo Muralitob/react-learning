@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Tabs, Radio, Button } from 'antd';
 import './index.css'
-// import { observer, inject } from 'mobx-react';
+import { observer, inject } from 'mobx-react';
 const TabPane = Tabs.TabPane;
-// @inject('todolist')
-// @observer
+@inject('todolist')
+@observer
 class Home extends Component {
   constructor(props) {
     super(props)
